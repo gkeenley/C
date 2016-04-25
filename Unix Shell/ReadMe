@@ -1,4 +1,0 @@
-- Unix shell implemented in C.
-- Supports IO redirection and pipes.
-- Entering 'history' will show up to last ten commands, including history command itself.
-- User terminates shell with 'exit'.
