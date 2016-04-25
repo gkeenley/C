@@ -1,0 +1,2 @@
+- Program simulates group of students entering professor's office to ask questions, using pThreads to represent each student and allocate time.
+- Run program using 'officeHours [number of students] [office capacity] [questions per student]'in which 'number of students' is the total number of students wanting to enter the office, 'office capacity' is the maximum number of students allowed in the office at a time, and 'questions per student' is the number of questions that each student will ask the professor before they will leave the office.
