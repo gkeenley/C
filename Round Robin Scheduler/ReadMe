@@ -1,0 +1,4 @@
+- This program simulates a two-level Round Robin scheduler.
+- Takes as input a text file in which each line corresponds to a particular process. Each line contains 5 integers, corresponding to the process ID, the time at which the process arrives in the schedular, the amount of CPU time the proces must consume, the IO frequency, and the IO duration, respectively.
+- The program outputs a text file containing the time at which each process, on the corresponding line, completes its operation.
+- Run from command line using 'scheduler [input file] [time quantum 1] [time quantum 2]', in which 'input file' is the text file containing process information, and time quanta 1 and 2 are the maximum amounts of time that a process can spend in queues 1 and 2, respectively, before being preempted.
